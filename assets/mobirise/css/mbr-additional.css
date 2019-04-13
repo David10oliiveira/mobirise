@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i);
-@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700);
-@import url(https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
 
 
 
@@ -29,7 +28,7 @@ body {
   font-size: 6.8rem;
 }
 .display-2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 3rem;
 }
 .display-2 > .mbr-iconfont {
@@ -43,7 +42,7 @@ body {
   font-size: 1.6rem;
 }
 .display-5 {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-size: 1.5rem;
 }
 .display-5 > .mbr-iconfont {
@@ -590,8 +589,8 @@ a:hover {
   color: #dfd9c6;
 }
 /* Scroll to top button*/
-#scrollToTop a {
-  border-radius: 100px;
+.scrollToTop_wraper {
+  display: none;
 }
 #scrollToTop a i:before {
   content: '';
@@ -1395,53 +1394,64 @@ body {
 .jq-selectbox:hover .jq-selectbox__trigger-arrow {
   border-top-color: #149dcc;
 }
-.cid-rn3vCV7vv3 {
+.cid-rnthd2b71r {
   background-image: url("../../../assets/images/screenshot-2019-03-22-19-37-54-573-1065x1088.jpg");
 }
-.cid-rn3vCV7vv3 h1 {
+.cid-rnthd2b71r h1 {
   color: #616161;
 }
-.cid-rn3vCV7vv3 h2,
-.cid-rn3vCV7vv3 h3,
-.cid-rn3vCV7vv3 p {
+.cid-rnthd2b71r h2,
+.cid-rnthd2b71r h3,
+.cid-rnthd2b71r p {
   color: #767676;
 }
-.cid-rn3vCV7vv3 .mbr-section-subtitle {
+.cid-rnthd2b71r .mbr-section-subtitle {
   font-style: italic;
 }
-.cid-rn3vCV7vv3 H1 {
+.cid-rnthd2b71r H3 {
+  text-align: center;
+}
+.cid-rnthd2b71r DIV {
+  color: #ff3366;
+  text-align: left;
+}
+.cid-rnthd2b71r H1 {
   color: #ff3366;
 }
-.cid-rn3vCV7vv3 .mbr-text,
-.cid-rn3vCV7vv3 .mbr-section-btn {
+.cid-rnthd2b71r .mbr-text,
+.cid-rnthd2b71r .mbr-section-btn {
   color: #232323;
 }
-.cid-rn5yY7Rxsg {
+.cid-rntjrR2G8E {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-rn5yY7Rxsg h3 {
+.cid-rntjrR2G8E h3 {
   text-align: center;
 }
-.cid-rn5yY7Rxsg .mbr-section-subtitle {
+.cid-rntjrR2G8E .mbr-section-subtitle {
   color: #ff3366;
   font-weight: 300;
 }
-.cid-rn5yY7Rxsg .mbr-content-text {
+.cid-rntjrR2G8E .mbr-content-text {
   color: #232323;
+  text-align: center;
 }
-.cid-rn5yY7Rxsg .card {
+.cid-rntjrR2G8E .panel-item {
+  background: #ffffff;
+}
+.cid-rntjrR2G8E .card {
   word-wrap: break-word;
 }
-.cid-rn5yY7Rxsg .mbr-iconfont {
+.cid-rntjrR2G8E .mbr-iconfont {
   font-size: 80px;
   color: #149dcc;
 }
-.cid-rn5GTYKlev {
-  background-image: url("../../../assets/images/screenshot-2018-12-08-21-22-58-776-1078x1340.jpg");
+.cid-rntlPVNUQY {
+  background-image: url("../../../assets/images/planta-fantasma-graptopetalum-paraguayense-1000x667.png");
 }
-.cid-rn5GTYKlev .icons-media-container {
+.cid-rntlPVNUQY .icons-media-container {
   display: flex;
   -webkit-justify-content: center;
   justify-content: center;
@@ -1451,99 +1461,156 @@ body {
   flex-wrap: wrap;
   padding-top: 4rem;
 }
-.cid-rn5GTYKlev .icons-media-container .mbr-iconfont {
+.cid-rntlPVNUQY .icons-media-container .mbr-iconfont {
   font-size: 96px;
   color: #ffffff;
 }
-.cid-rn5GTYKlev .icons-media-container .icon-block {
+.cid-rntlPVNUQY .icons-media-container .icon-block {
   padding-bottom: 1rem;
 }
-.cid-rn5GTYKlev .mbr-text {
+.cid-rntlPVNUQY .mbr-text {
   color: #ffffff;
 }
-.cid-rn5GTYKlev .card {
+.cid-rntlPVNUQY .card {
   padding-bottom: 1.5rem;
 }
-.cid-rn5GTYKlev H5 {
-  color: #ffffff;
-}
-.cid-rn5GTYKlev H1 {
+.cid-rntlPVNUQY H1 {
   color: #ff3366;
 }
-.cid-rn6sJlX29E {
+.cid-rntoXnoNdM {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-rn6sJlX29E h4 {
+.cid-rntoXnoNdM h4 {
   font-weight: 500;
   margin-bottom: 0;
   text-align: left;
   padding-top: 2rem;
 }
-.cid-rn6sJlX29E p {
+.cid-rntoXnoNdM p {
   margin-bottom: 0;
   text-align: left;
   padding-top: 1.5rem;
 }
-.cid-rn6sJlX29E .mbr-section-btn {
+.cid-rntoXnoNdM .mbr-section-btn {
   padding-top: 2.5rem;
 }
-.cid-rn6sJlX29E .mbr-section-btn a {
+.cid-rntoXnoNdM .mbr-section-btn a {
   margin: 0;
 }
-.cid-rn6sJlX29E .mbr-text {
+.cid-rntoXnoNdM .mbr-text {
   color: #767676;
 }
-.cid-rn6sJlX29E .card-wrapper {
+.cid-rntoXnoNdM .card-wrapper {
   height: 100%;
   background: #ffffff;
 }
 @media (max-width: 767px) {
-  .cid-rn6sJlX29E .card:not(.last-child) {
+  .cid-rntoXnoNdM .card:not(.last-child) {
     padding-bottom: 2rem;
   }
 }
-.cid-rn6sJlX29E .mbr-text,
-.cid-rn6sJlX29E .mbr-section-btn {
+.cid-rntoXnoNdM H2 {
+  text-align: center;
+  color: #ff3366;
+}
+.cid-rntoXnoNdM .mbr-text,
+.cid-rntoXnoNdM .mbr-section-btn {
   color: #232323;
 }
-.cid-rn6sJlX29E H2 {
-  color: #ff3366;
-  text-align: center;
-}
-.cid-rn5OQyaAeo {
+.cid-rntqg61Zls {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-rn5OQyaAeo h4 {
+.cid-rntqg61Zls h4 {
   font-weight: 500;
   margin-bottom: 0;
   text-align: left;
-}
-.cid-rn5OQyaAeo p {
-  color: #767676;
-  text-align: left;
-}
-.cid-rn5OQyaAeo .card-box {
   padding-top: 2rem;
 }
-.cid-rn5OQyaAeo .card-wrapper {
-  height: 100%;
+.cid-rntqg61Zls p {
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 1.5rem;
+  padding-top: 2rem;
 }
-.cid-rn5OQyaAeo P {
+.cid-rntqg61Zls .mbr-section-btn {
+  padding-top: 2.5rem;
+}
+.cid-rntqg61Zls .mbr-section-btn a {
+  margin: 0;
+}
+.cid-rntqg61Zls .mbr-text {
+  color: #767676;
+}
+.cid-rntqg61Zls .card-wrapper {
+  height: 100%;
+  background: #ffffff;
+}
+@media (max-width: 767px) {
+  .cid-rntqg61Zls .card:not(.last-child) {
+    padding-bottom: 2rem;
+  }
+}
+.cid-rntqg61Zls .mbr-text,
+.cid-rntqg61Zls .mbr-section-btn {
   color: #232323;
 }
-.cid-rn6pyHS166 {
+.cid-rntrMNVSDT {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/screenshot-2018-12-08-21-22-58-776-1078x1340.jpg");
+}
+.cid-rntrMNVSDT h4 {
+  font-weight: 500;
+  color: #ffffff;
+}
+.cid-rntrMNVSDT p {
+  color: #ffffff;
+}
+.cid-rntrMNVSDT .card {
+  margin-bottom: 2rem;
+}
+.cid-rntrMNVSDT .card-img {
+  border-radius: 0;
+  padding: 2rem 2rem 0 2rem;
+  background-color: #149dcc;
+}
+.cid-rntrMNVSDT .card-img span {
+  font-size: 100px;
+  color: #ffffff;
+}
+.cid-rntrMNVSDT .card-box {
+  padding-bottom: 2rem;
+  background-color: #149dcc;
+  background: linear-gradient(#149dcc, transparent);
+}
+.cid-rntrMNVSDT .card-box .card-title {
+  margin: 0;
+  padding: 2rem 2rem 0 2rem;
+}
+.cid-rntrMNVSDT .card-box .mbr-text {
+  margin-bottom: 0;
+  padding: 2rem 2rem 0 2rem;
+}
+.cid-rntrMNVSDT .card-box .mbr-section-btn {
+  padding-top: 1rem;
+}
+.cid-rntrMNVSDT .card-box .mbr-section-btn a {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.cid-rntvEy4O0Q {
   padding-top: 90px;
   padding-bottom: 90px;
   background: linear-gradient(45deg, #0f7699, #cc2952);
 }
-.cid-rn6pyHS166 .list-group-item {
+.cid-rntvEy4O0Q .list-group-item {
   padding: .75rem 3.25rem;
 }
-.cid-rn6pyHS166 .plan {
+.cid-rntvEy4O0Q .plan {
   word-break: break-word;
   position: relative;
   max-width: 300px;
@@ -1551,13 +1618,13 @@ body {
   padding-left: 0;
   color: #767676;
 }
-.cid-rn6pyHS166 .plan .list-group-item {
+.cid-rntvEy4O0Q .plan .list-group-item {
   position: relative;
   -webkit-justify-content: center;
   justify-content: center;
   border: 0;
 }
-.cid-rn6pyHS166 .plan .list-group-item::after {
+.cid-rntvEy4O0Q .plan .list-group-item::after {
   position: absolute;
   bottom: 0;
   left: 20%;
@@ -1566,33 +1633,36 @@ body {
   content: "";
   background-color: #eaeaea;
 }
-.cid-rn6pyHS166 .plan .list-group-item:last-child::after {
+.cid-rntvEy4O0Q .plan .list-group-item:last-child::after {
   display: none;
 }
-.cid-rn6pyHS166 .plan-header {
+.cid-rntvEy4O0Q .plan-header {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-.cid-rn6pyHS166 .plan-header,
-.cid-rn6pyHS166 .plan-body {
+.cid-rntvEy4O0Q .plan-header,
+.cid-rntvEy4O0Q .plan-body {
   background-color: #fff;
 }
-.cid-rn6pyHS166 .price-figure {
+.cid-rntvEy4O0Q .price-figure {
   font-weight: 700;
   color: #232323;
 }
-.cid-rn6pyHS166 .price-value {
+.cid-rntvEy4O0Q .price-value {
   font-weight: 700;
   vertical-align: top;
 }
 @media (max-width: 550px) {
-  .cid-rn6pyHS166 .price-figure {
+  .cid-rntvEy4O0Q .price-figure {
     font-size: 4.25rem;
   }
 }
-.cid-rn6pyHS166 LI {
+.cid-rntvEy4O0Q .plan-title {
   color: #232323;
 }
-.cid-rn6pyHS166 .plan-title {
+.cid-rntvEy4O0Q .price-term {
+  color: #232323;
+}
+.cid-rntvEy4O0Q LI {
   color: #232323;
 }
